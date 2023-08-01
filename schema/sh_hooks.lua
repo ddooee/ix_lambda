@@ -337,6 +337,30 @@ function Schema:CanPlayerUseBusiness(client, uniqueID)
 	return false
 end
 
+<<<<<<< HEAD
+=======
+function Schema:CanPlayerUseCharacter(client, character)
+	if (character:GetFaction() == FACTION_OTA) then
+		--local ratio = ix.config.Get("teamratio", 10)
+		local playerCount = player.GetCount()
+		local otaCount = #team.GetPlayers(FACTION_OTA)
+		local cityCount = #team.GetPlayers(FACTION_CITIZEN)
+
+		if (otaCount >= cityCount + 2) and otaCount != 1 then
+			return false, "현재 온라인 상태인 감시인 플레이어가 너무 많습니다."
+		end
+
+	elseif (character:GetFaction() == FACTION_CITIZEN) then
+		local otaCount = #team.GetPlayers(FACTION_OTA)
+		local cityCount = #team.GetPlayers(FACTION_CITIZEN)
+		
+		if (cityCount >= otaCount + 2) and cityCount != 1 then
+			return false, "현재 온라인 상태인 반시민 플레이어가 너무 많습니다."
+		end
+	end
+end
+
+>>>>>>> ff0f01aa70bd87f4daeda93c8b13221d4394ba1d
 function Schema:CanDrive()
 	return false
 end
