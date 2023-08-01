@@ -1,0 +1,20 @@
+LANGUAGE = {
+	["wearSlot"] = "슬롯: %s",
+	["slot13"] = "어깨",
+	["slot3"] = "귀",
+	["slot4"] = "얼굴",
+	["slot5"] = "흉부",
+	["slot1"] = "머리",
+	["slot7"] = "다리",
+	["slot10"] = "무전기",
+	["slot6"] = "손",
+	["slot9"] = "CID",
+	["categoryFilters"] = "방독면 필터",
+	["categoryGasmask"] = "방독면",
+	["filter"] = "방독면용",
+	["iFilter"] = "필터",
+	["iFilterDesc"] = "가스 마스크 유형 GP-5 및 GCP-1용 필터.",
+	["iGasmask"] = "방독면",
+	["iGasmaskDesc"] = "오래된 녹슨 방독면 GP-5.",
+	["filterDesc"] = "%s\n필터 상태: %s%%"
+}

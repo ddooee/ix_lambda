@@ -1,0 +1,7 @@
+"sample"
+{
+	"base"		"helix"
+	"title"		"IX:람다워즈"
+	"author"	"fallen"
+	"menusystem" "1"
+}
