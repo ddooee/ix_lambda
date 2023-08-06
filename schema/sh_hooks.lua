@@ -331,14 +331,13 @@ do
 	function Schema:ShouldPlayTypingBeep(client, chatType)
 		return client:IsCombine() and chatTypes[chatType] and client:GetMoveType() != MOVETYPE_NOCLIP
 	end
+	
 end
 
 function Schema:CanPlayerUseBusiness(client, uniqueID)
 	return false
 end
 
-<<<<<<< HEAD
-=======
 function Schema:CanPlayerUseCharacter(client, character)
 	if (character:GetFaction() == FACTION_OTA) then
 		--local ratio = ix.config.Get("teamratio", 10)
@@ -360,7 +359,6 @@ function Schema:CanPlayerUseCharacter(client, character)
 	end
 end
 
->>>>>>> ff0f01aa70bd87f4daeda93c8b13221d4394ba1d
 function Schema:CanDrive()
 	return false
 end

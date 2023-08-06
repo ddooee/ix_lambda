@@ -1,7 +1,7 @@
 DEFINE_BASECLASS("DButton")
 local PANEL = {}
-local button = Material("cellar/main/cellar_buttonlistmirrored.png")
-local buttonhover = Material("cellar/main/cellar_buttonlisttogglemirrored.png")
+local button = Material("cellar/main/cellar_buttonlisttogglemirrored.png")
+local buttonhover = Material("cellar/main/cellar_buttonlistmirrored.png")
 function PANEL:Init()
 	self.BaseClass.SetText(self, "")
 

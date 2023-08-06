@@ -1,9 +1,9 @@
 DEFINE_BASECLASS("DButton")
 local PANEL = {}
 local btnHeight = 40
-local buttonnew = Material("cellar/main/button_cellar.png")
-local buttonnewhover = Material("cellar/main/button_cellar_hovered_blue.png")
-local buttonnewtoggled = Material("cellar/main/cellar_button_toggled.png")
+local buttonnew = Material("cellar/main/button_cellar_red.png")
+local buttonnewhover = Material("cellar/main/button_cellar_hovered.png")
+local buttonnewtoggled = Material("cellar/main/button_cellar.png")
 local icons = {
 	Material("cellar/main/new.png"),
 	Material("cellar/main/chars.png"),
@@ -118,9 +118,9 @@ vgui.Register("cellar.newbtn", PANEL, "DButton")
 DEFINE_BASECLASS("DButton")
 local PANEL = {}
 local btnHeight = 40
-local buttonnew = Material("cellar/main/cellar_buttonlist.png")
-local buttonnewhover = Material("cellar/main/cellar_buttonlisthover.png")
-local buttonnewtoggled = Material("cellar/main/cellar_buttonlisttoggle.png")
+local buttonnew = Material("cellar/main/cellar_buttonlisthover.png")
+local buttonnewhover = Material("cellar/main/cellar_buttonlist.png")
+local buttonnewtoggled = Material("cellar/main/cellar_buttonlist.png")
 local icons = {
 	Material("cellar/main/new.png"),
 	Material("cellar/main/chars.png"),
